@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installer Jekyll pour faire tourner le theme Feeling Responsive"
+title: "Installer Jekyll pour faire tourner le thème Feeling Responsive"
 category: 
 - ubuntu
 - jekyll
@@ -8,7 +8,7 @@ category:
 browser_title: 'Installer Jekyll pour Feeling Responsive'
 meta_description: 'Comment faire tourner Feeling Responsive sous Jekyll en 2 min. chrono'
 ---
-Installer Jekyll sous ubuntu 14.04 n'est pas trivial : les dépôts contiennent une version d'outre-tombe de Jekyll et une version trop ancienne de Ruby. En plus, Jekyll seul ne suffit pas, il faut en plus installer nodejs.
+Installer Jekyll sous ubuntu 14.04 n'est pas trivial : les dépôts contiennent une version d'outre-tombe de Jekyll et une version poussiéreuse de Ruby. En plus, Jekyll seul ne suffit pas, il faut en plus installer nodejs.
 
 Plutôt que d'avoir une gueule de revenant après avoir chercher pendant des heures comme faire tourner le bouzin, faites ceci :
 
