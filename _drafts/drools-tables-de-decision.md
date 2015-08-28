@@ -21,5 +21,5 @@ La résolution des problèmes que l'on rencontre au cours des développement se 
 Dans ce petit tutoriel il faudra utiliser la version *Drools 6.2.0.Final*.
 
 ## Le problème
-Pour le développement d'un prototype on avait besoin de développer une partie avec des règles métiers, si possible pas cher. Ça tombe bien, *Drools* est un BRMS open source gratuit.
+Pour le développement d'un prototype, le client souhaitait un module avec des règles métiers, si possible pas cher. Ça tombe bien, *Drools* est un BRMS open source gratuit.
 
