@@ -3,9 +3,7 @@ title: Return From Death
 tagline: 
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  Je suis chef de projet et ancien développeur. 
-  Je partage ici quelques solutions aux problèmes que j'ai pu rencontrer dans ma carrière.
-  J'aime ce qui est simple, clair et épuré.
+  Chef de projet et ancien développeur sur Toulouse je partage ici des solutions aux problèmes que j'ai pu rencontrer dans ma carrière.
 baseurl: "/returnfromdeath/" # the subpath of your site, e.g. /blog/
 url: "http://richard-fagot.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
