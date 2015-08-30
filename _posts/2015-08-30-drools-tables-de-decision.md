@@ -19,7 +19,7 @@ Vous voulez faire marcher une table de décision dans un ruleflow ? Vous vous y 
 
 ##TL;DR
 1. [Téléchargez l'exemple](https://github.com/richard-fagot/drools-6.2.0-dt-jbpmn) ;
-2. Suivez les instructions indiquées dans le `README.md`.
+2. Suivez les instructions indiquées dans le *README.md*.
 
 ## Ce qu'il faut savoir avant de commencer
 *Drools* évolue beaucoup entre deux versions et il ne faut pas compter sur la retrocompatibilité. Ce qui marche dans une version peut ne plus fonctioner dans la version suivante et je ne parle même pas des versions SNAPSHOT.
