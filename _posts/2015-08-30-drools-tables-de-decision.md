@@ -13,10 +13,9 @@ browser_title: "Drools, Tables de décision et Ruleflow"
 meta_description: "Comment faire marcher les tables de décision de Drools avec un ruleflow"
 banner_image: drools-dt-ruleflow.png
 ---
-<!--La documentation de *Drools* est vraiment pauvre et la communauté autour de cette technologie des *moteurs de règles* (BRMS) assez marginale. 
 
-La résolution des problèmes que l'on rencontre au cours des développements se heurte à cette absence de connaissance sur le sujet et devient vite un vrai calvaire.
--->
+Vous voulez faire marcher une table de décision dans un ruleflow ? Vous vous y êtes essayé et maintenant vous dormez dans un cercueil ? Retrouvez votre âme perdue en lisant cet article !
+
 
 ##TL;DR
 1. [Téléchargez l'exemple](https://github.com/richard-fagot/drools-6.2.0-dt-jbpmn) ;
