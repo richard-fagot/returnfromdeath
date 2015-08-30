@@ -73,7 +73,7 @@ Nous allons développer un petit système de règles métier permettant de déte
 
 La détermination de la catégorie d'âge se fait au moment opportun dans le ruleflow :D
 
-![Ruleflow]({{site.url}}/assets/images/drools-dt-jbpmn/ruleflow.png){:.img-center}
+![Ruleflow]({{site.imagebaseurl}}/assets/images/drools-dt-jbpmn/ruleflow.png){:.img-center}
 
 Le *RuleFlowGroup* visible dans les propriétés de la *Rule Task* est positionné à *agePoidsCat*. Cette information nous permettra d'indiquer à *Drools* à quel moment exécuter notre table de décision dans le déroulement du *Ruleflow*.
 
@@ -81,7 +81,7 @@ Le *RuleFlowGroup* visible dans les propriétés de la *Rule Task* est positionn
 
 Nous voici enfin au cœur du problème : la table de décision :
 
-![Table de décision]({{site.url}}/assets/images/drools-dt-jbpmn/dt.png){:.img-center}
+![Table de décision]({{site.imagebaseurl}}/assets/images/drools-dt-jbpmn/dt.png){:.img-center}
 
 Pour l'écrire il faut se montrer très rigoureux car il n'y a pas d'aide à la saisie (pas de complétion automatique), il faut écrire certains libellés exactement comme demandé, dont certains à une place bien précise par rapport aux données.
 
@@ -135,7 +135,7 @@ L'écriture d'une condition à plusieurs paramètres est simple à comprendre. D
 
 En français, le séparateur des décimaux est la virgule. Si vos paramètres sont des entiers comme ici, *Excel* les interprétera comme un nombre décimal et marquera la cellule comme tel et *Drools* ne sera pas capable d'interpréter correctement la cellule comme une suite de deux valeurs (ne me demandez pas pourquoi...). Pour que la cellule soit correctement interprétable par *Drools* il faut la marquer comme zone de texte :
 
-![Format de la cellule texte]({{site.url}}/assets/images/drools-dt-jbpmn/cellule-texte.png){:.img-center}
+![Format de la cellule texte]({{site.imagebaseurl}}/assets/images/drools-dt-jbpmn/cellule-texte.png){:.img-center}
 
 Comme il n'y a pas de complétion automatique ni de compilation à la volée il faut être rigoureux sur l'écriture du template. Je vous conseille d'écrire une règle telle quelle doit être générée, de la tester et ensuite de créer la table de décision en faisant des copier-collers.
 
