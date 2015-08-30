@@ -11,7 +11,7 @@ category:
 - Excel
 browser_title: "Drools, Tables de décision et Ruleflow"
 meta_description: "Comment faire marcher les tables de décision de Drools avec un ruleflow"
-banner_image: drools-dt-ruleflow.png
+banner_image: drools-dt-jbpmn/drools-cercueil.png
 ---
 
 Vous voulez faire marcher une table de décision dans un ruleflow ? Vous vous y êtes essayé et maintenant vous dormez dans un cercueil ? Retrouvez votre âme perdue en lisant cet article !
