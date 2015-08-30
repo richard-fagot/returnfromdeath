@@ -142,7 +142,7 @@ En français, le séparateur des décimaux est la virgule. Si vos paramètres so
 Comme il n'y a pas de complétion automatique ni de compilation à la volée il faut être rigoureux sur l'écriture du template. Je vous conseille d'écrire une règle telle quelle doit être générée, de la tester et ensuite de créer la table de décision en faisant des copier-collers.
 
 ## L'exécution
-Une fois la table de décision écrite et sauvegardée, le travail s'arrête là. Il n'y a pas de code à écrire ni de déclaration à faire dans le *kmodule.xml*. *Drools* s'occupe d'identifier les tables de décisions présentent dans les ressources et de générer les règles correspondantes.
+Une fois la table de décision écrite et sauvegardée, le travail s'arrête là. Il n'y a pas de code à écrire ni de déclaration à faire dans le *kmodule.xml*. *Drools* s'occupe d'identifier les tables de décisions présentes dans les ressources et de générer les règles correspondantes.
 
 Exécutez la classe `Main.java` comme projet java. En sortie, dans la console vous devez avoir :
 
