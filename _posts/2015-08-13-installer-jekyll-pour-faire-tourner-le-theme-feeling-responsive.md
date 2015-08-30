@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installer Jekyll pour faire tourner le thème Feeling Responsive"
+comments: true
 category: 
 - ubuntu
 - jekyll

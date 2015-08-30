@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installer une clé SSH pour github sous ubuntu 14.04"
+comments: true
 category: 
 - ubuntu
 - github
