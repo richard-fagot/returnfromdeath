@@ -47,7 +47,7 @@ Le jeu de la vie se résume en deux règles, ça tombe bien *Drools* est un mote
 
 ## L'exécution
 
-![Le jeu de la vie]({{site.imagebaseurl}}/assets/images/drools-jeu-de-la-vie/ConwaysGameOfLife.png){:.img-center}
+![Le jeu de la vie]({{site.imagebaseurl}}/assets/images/drools-jeu-de-la-vie/LeJeuDeLaVie.gif){:.img-center}
 
 Pour rendre la chose plus ludique et attrayante j'ai ajouté une visualisation graphique des différents calculs portés par *Drools*.
 
