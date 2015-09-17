@@ -43,6 +43,7 @@ Pour plus d'information, je vous invite à consulter [l'article wikipedia](https
 ## L'implémentation
 Le jeu de la vie se résume en deux règles, ça tombe bien *Drools* est un moteur de règles et il ne nous faudra pas plus que ces deux règles exactement pour implémenter notre solution.
 
+Tout repose sur les cellules `Cell`
 
 
 ## L'exécution
