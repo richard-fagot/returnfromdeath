@@ -11,7 +11,7 @@ category:
 - "Conway's Game Of Life"
 browser_title: "Le jeu de la vie"
 meta_description: "Implémenter le jeu de la vie en guise d'exercice Drools"
-banner_image: drools-dt-jbpmn/drools-cercueil.png
+banner_image: drools-jeu-de-la-vie/drools-game-of-life.gif
 comments: true
 ---
 
