@@ -13,7 +13,7 @@ category:
 - NodeJS
 browser_title: "Installer Jekyll sous Mac OS"
 meta_description: "Comment installer facilement un environnement Jekyll complet."
-<!-- banner_image: drools-dt-jbpmn/drools-cercueil.png -->
+banner_image: Jekyll-mac/jekyll-mac.png
 comments: true
 ---
 
