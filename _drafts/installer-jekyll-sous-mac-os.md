@@ -17,12 +17,14 @@ meta_description: "Comment installer facilement un environnement Jekyll complet.
 comments: true
 ---
 
-*Jekyll* est un moteur de blog statique, c'est-à-dire qu'il génère un ensemble de pages *HTML* classiques, pas de base de données, pas de backoffice, par de faille de sécurité. C'est la technologie employée dans *Github Pages*. Le site généré est directement employable derrière un serveur *HTTP* tel que *Apache* ou *Nginx*.
+*Jekyll* est un moteur de blog statique, c'est-à-dire qu'il génère un ensemble de pages *HTML* classiques, pas de base de données, pas de back-office, pas de faille de sécurité. C'est la technologie employée dans *Github Pages*. 
+
+Le site généré est directement employable derrière un serveur *HTTP* tel que *Apache* ou *Nginx*.
 
 
 *Jekyll* est un moteur de blog que j'apprécie tout particulièrement pour sa simplicité de mise en oeuvre, rédactionnelle et la sécurité offerte par son aspect statique.
 
-Les billets sont écrits en *Markdown*, réutilisables facilement sous différents environnements et même dans des moteurs de blog plus complexe moyennant une petite migration. De plus, comme il s'agit de fichiers texte pur il est facile de les versionner dans un système de control de version tel que *Git* ou *svn*.
+Les billets sont écrits en *Markdown*, réutilisables facilement sous différents environnements et même dans des moteurs de blog plus complexes, moyennant une petite migration. De plus, comme il s'agit de fichiers texte pur, il est facile de les versionner dans un système de control de version tel que *Git* ou *svn*.
 
 ## Installation
 
@@ -36,9 +38,11 @@ Si ce n'est déjà fait, je vous recommande d'installer [*Homebrew*](http://brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 {% endhighlight %}
 
-Vous remarquerez qu'ici, on utilise le *Ruby* installé par défaut sur le mac.
+Vous remarquerez qu'ici, on utilise le *Ruby* installé par défaut sur le *Mac*.
 
 ### Ruby
+
+Pour pouvoir gérer l'installation de *Ruby* et, en particulier, de plusieurs versions en même temps, je vous recommande d'installer *RVM*. 
 
 L'installation de *Ruby* et *RVM* se fera en une seule fois. Mais il faut commencer par enregistrer une clé GPG :
 
@@ -48,7 +52,7 @@ gpg --keyserver hkp://keys.gnupg.net
     --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 {% endhighlight %}
 
-Et enfin réaliser l'installation de *Ruby* et *RVM* :
+Et enfin, réaliser l'installation de *Ruby* et *RVM* :
 
 {% highlight bash %} 
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
@@ -85,3 +89,11 @@ gem install jekyll
 ## Conclusion
 
 Vous voilà avec un bel environnement *Jekyll* avec, en prime, un gestionnnaire de paquet bien pratique. Le tout sans être obligé de manger la Pomme Ténébreuse.
+
+## Références
+
+* [*Jekyll*](http://jekyllrb.com/docs/installation/)
+* [*Homebrew*](http://brew.sh/index_fr.html)
+* [*Ruby*](http://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/)
+* [*NodeJS*](https://nodejs.org/en/)
+* [*Python*](https://www.python.org/)
