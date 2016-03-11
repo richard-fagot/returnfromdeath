@@ -21,7 +21,7 @@ Simple et élégante, comme on peut s'y attendre en *Haskell*, cela m'a donné l
 
 
 
-## TL;DR
+## TL,DR
 
 1. [Téléchargez l'exemple](https://github.com/richard-fagot/drools-6.2.0-ConwaysGameOfLife) ;
 2. Suivez les instructions indiquées dans le *README.md*.

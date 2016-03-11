@@ -14,7 +14,7 @@ comments: true
 
 Une application web mobile en **AngularJS**, des images qui tantôt s'affichent sur certains mobiles, tantôt pas. La disparition de ces images n'est pas mystérieuse ni aléatoire mais est causée par des êtres se dissimulant dans les profondeurs obscures du réseau et laissant leur trace dans nos applications développées avec force et courage.
 
-## TL;DR
+## TL,DR
 
 1. Utilisez la directive `ng-src` pour indiquer l'emplacement relatif de vos images ;
 2. Fin.
