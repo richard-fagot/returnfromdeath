@@ -11,7 +11,7 @@ logourl: /assets/images/logo.png # Site logo
 homename: "Accueil"
 author: "Richard Fagot"
 author_thumbnail: "/assets/images/avatar-white.png" # Author avatar
-highlighter: pygments
+highlighter: rouge
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
