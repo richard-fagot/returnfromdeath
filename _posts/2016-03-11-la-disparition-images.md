@@ -12,7 +12,7 @@ banner_image: disparition/disparition.png
 comments: true
 ---
 
-Une application web mobile en AngularJS, des images qui tantôt s'affichent sur certains mobiles, tantôt pas. La disparition de ces images n'est pas mystérieuse ni aléatoire mais est causée par des êtres se dissimulant dans les profondeurs obscures du réseau et laissant leur trace dans nos applications développées avec force et courage.
+Une application web mobile en **AngularJS**, des images qui tantôt s'affichent sur certains mobiles, tantôt pas. La disparition de ces images n'est pas mystérieuse ni aléatoire mais est causée par des êtres se dissimulant dans les profondeurs obscures du réseau et laissant leur trace dans nos applications développées avec force et courage.
 
 ##TL;DR
 
@@ -21,7 +21,7 @@ Une application web mobile en AngularJS, des images qui tantôt s'affichent sur 
 
 ## Le contexte
 
-Pour un client, nous avons développé une application AngularJS avec Bootsrap pour une utilisation sur mobile en 3G/4G. 
+Pour un client, nous avons développé une application **AngularJS** avec Bootsrap pour une utilisation sur mobile en 3G/4G. 
 
 Lors des tests, il s'est trouvé des cas où les images n'apparaissaient pas et, après investigation, seuls les utilisateurs sous certains opérateurs en 3G étaient concernés.
 
@@ -32,11 +32,11 @@ Par exemple, il est assez courant que les images soient recompressées, donnant,
 
 Parfois, les opérateurs vont plus loin et modifient le code source de la page HTML elle-même. Et, dans notre cas, ils passent sur les attributs `src` et remplacent les urls en chemin relatif par une url en chemin absolu à partir de l'url du fichier HTML lu.
 
-Dans le cas d'AngularJS, les différentes vues de l'application sont distribuées dans des fichiers HTML possédant une arborescence propre et éloignée de la racine ou se trouve le *index.html*. 
+Dans le cas d'**AngularJS**, les différentes vues de l'application sont distribuées dans des fichiers HTML possédant une arborescence propre et éloignée de la racine ou se trouve le *index.html*. 
 
-AngularJS gère très bien ces urls relatives à la racine de l'application même si elles sont écrite dans une sous-arborescence. C'est précisément ce qu'on lui demande.
+**AngularJS** gère très bien ces urls relatives à la racine de l'application même si elles sont écrite dans une sous-arborescence. C'est précisément ce qu'on lui demande.
 
-Le problème est que l'opérateur remplace la valeur des attributs `src` en chemin relatif avant le passage d'AngularJS par des url en chemin absolu en partant de l'emplacement du fichier HTML qui les contient.
+Le problème est que l'opérateur remplace la valeur des attributs `src` en chemin relatif avant le passage d'**AngularJS** par des url en chemin absolu en partant de l'emplacement du fichier HTML qui les contient.
 
 On se retrouve donc avec des :
 
@@ -51,9 +51,9 @@ au lieu de :
 
 La solution est simple, il suffit d'utiliser systématiquement la directive `ng-src`. 
 
-Les opérateurs ne savent pas les traiter et les laissent tels quels, ce qui permet à AngularJS de faire son travail correctement et d'afficher les images.
+Les opérateurs ne savent pas les traiter et les laissent tels quels, ce qui permet à **AngularJS** de faire son travail correctement et d'afficher les images.
 
-Un second avantage est que dans AngularJS 2, il est fortement recommandé d'utiliser cette directive, ce qui permet, d'ors et déjà, de prendre de bonnes habitudes.
+Un second avantage est que dans **AngularJS 2**, il est fortement recommandé d'utiliser cette directive, ce qui permet, d'ors et déjà, de prendre de bonnes habitudes.
 
 
 Le projet d'exemple se trouve sur <https://github.com/richard-fagot/rfd-disparition> et on peut le tester en live sur <http://richard-fagot.github.io/rfd-disparition/>.
