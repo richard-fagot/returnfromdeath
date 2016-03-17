@@ -4,7 +4,7 @@ title: "AngularJS, mobile et disparition d'image."
 comments: true
 category: 
 - Angular
-- Opérateur
+- "Opérateur mobile"
 - Images
 browser_title: "La disparition"
 meta_description: "Chez certains opérateurs mobile, les images ne s'affichent pas avec AngularJS."
