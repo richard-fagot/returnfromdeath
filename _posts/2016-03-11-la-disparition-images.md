@@ -8,7 +8,6 @@ category:
 - Images
 browser_title: "La disparition"
 meta_description: "Chez certains opérateurs mobile, les images ne s'affichent pas avec AngularJS."
-banner_image: disparition/disparition.png
 comments: true
 ---
 
