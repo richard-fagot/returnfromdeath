@@ -20,7 +20,7 @@ Une application web mobile en **AngularJS**, des images qui tantôt s'affichent 
 
 ## Le contexte
 
-Pour un client, nous avons développé une application **AngularJS** avec Bootsrap pour une utilisation sur mobile en 3G/4G. 
+Pour un client, nous avons développé une application **AngularJS** avec Bootstrap pour une utilisation sur mobile en 3G/4G. 
 
 Lors des tests, il s'est trouvé des cas où les images n'apparaissaient pas et, après investigation, seuls les utilisateurs sous certains opérateurs en 3G étaient concernés.
 
