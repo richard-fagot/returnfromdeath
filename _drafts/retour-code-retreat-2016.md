@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "Retour du Code Retreat 2016"
+title: "Retours sur le Code Retreat 2016"
 comments: true
 category:
 - GDCR
 - TDD
 browser_title: "GDCR 2016"
 meta_description: "Retour sur ma toute première participation au Global Day of Code Retreat"
+banner_image: GDCR-2016/coderetreat.png
 comments: true
 ---
 
-Le **Global Day of Code Retreat** est un événement mondial où des développeurs se réunissent pour le plaisir de pratiquer l'artisanat logiciel (**Software Craftmanship**) autour d'un sujet commun - le jeu de la vie - à implémenter par la technique du **TDD** (Test Driven Development), plus quelques contraintes imposées par les facilitateurs (qui portent plutôt mal leur nom du coup).
+Le **Global Day of Code Retreat** est un événement mondial où des développeurs se réunissent pour le plaisir de pratiquer l'artisanat logiciel (**Software Craftmanship**) autour d'un sujet commun - le jeu de la vie - à implémenter par la technique du **TDD** (Test Driven Development), avec quelques contraintes imposées par les facilitateurs (qui portent plutôt mal leur nom du coup).
 
 ## TL,DR
 
@@ -25,24 +26,28 @@ Le **Global Day of Code Retreat** est un événement mondial où des développeu
 
 ## Le contexte
 
-   Dans le cadre de mon travail chez [**VISEO**](www.viseo.com), je recherche à sponsoriser des événements dédiés aux développeurs. En 2011, un collègue avait fait héberger un **Global Day of Code Retreat** dans mon ancienne boîte et je me suis dit que cette année ce serait sympa de faire sponsoriser cet événement par **VISEO**.
+   Dans le cadre de mon travail chez [**VISEO**](www.viseo.com), je recherche à sponsoriser des événements dédiés aux développeurs. En 2011, un collègue avait fait héberger un **Global Day of Code Retreat** dans mon ancienne boîte et je me suis dit que, cette année, ce serait sympa de faire sponsoriser cet événement par **VISEO**.
 
    Et j'en ai profité pour y participer cette fois-ci.
 
 
 ## Le principe
 
-   Le principe de l'événement consiste à coder loin des contraintes que l'on peut rencontrer en milieu professionnel (stress, tenue des objectifs, produire vite...) pour, non pas produire à tout prix quelque chose qui marche, mais pour produire du bon code.
+   L'événement consiste à coder loin des contraintes que l'on peut rencontrer en milieu professionnel (stress, tenue des objectifs, produire vite...) pour, non pas produire à tout prix quelque chose qui marche, mais pour faire du **bon code**.
 
    La journée est découpée en sessions de 45 minutes suivies d'une retrospective de 15 minutes. À la fin de chaque session tout le monde supprime son code !!!
 
-   Hé oui, c'est dur mais c'est comme ça. Il y a plusieurs raison à cela : d'abord, il ne faut pas se mentir, on n'y reviendra pas plus tard. Ensuite, le but de la journée n'est pas de produire mais apprendre comment faire du beau code et ce savoir c'est vous qui le portez.
+   Hé oui, c'est dur mais c'est comme ça. Il y a plusieurs raison à cela : d'abord, il ne faut pas se mentir, on n'y reviendra pas plus tard. Ensuite, le but de la journée n'est pas de produire mais apprendre comment faire du beau code et, ce savoir, c'est vous qui le portez.
 
-   Et puis, avec du recul, pendant cet événement, on produit tellement peu de code, qui ne marche pas en plus, que ça ne vaut vraiment pas le coup de le conserver et je ne regrette rien, on n'y pense même pas.
+   De plus, avec le recul, on produit tellement peu de code, qui ne marche pas en plus, que ça ne vaut vraiment pas le coup de le conserver.
 
-   On change de partenaire à chaque session, le choix du langage est libre (on en a vu qui ont tenté l'exercice avec des shaders !), comme celui de l'IDE ou encore de la librairie de test.
+   Et je ne regrette rien, on n'y pense même pas.
 
-   À chaque session on recommence donc à zéro mais les facilitateurs donnent une contrainte à respecter pour pimenter quelque peu l'exercice. Et on tente à chaque fois d'implémenter le jeu de la vie en pair-programming avec la technique du TDD.
+   À chaque session, change de partenaire, le choix du langage est libre (on en a vu qui ont tenté l'exercice avec des shaders !), ainsi que le choix de l'IDE ou encore de la librairie de test.
+
+   À chaque fois, on recommence donc à zéro mais les facilitateurs donnent une contrainte à respecter pour pimenter quelque peu l'exercice.
+
+   Et on tente inlassablement d'implémenter le jeu de la vie en pair-programming, avec la technique du TDD.
 
 ## Le jeu de la vie
 
@@ -57,27 +62,31 @@ Le **Global Day of Code Retreat** est un événement mondial où des développeu
 
 ## Organisation de la journée
 
-   En arrivant sur le lieu de l'événement (un samedi matin à 9h il faut le vouloir !!), un petit déjeuner était offert et on pouvait commencer à faire connaissance en attendant le reste des participants. Sur un des murs était projeté le flux de plusieurs webcams installées dans divers sites dans le monde ce qui permettait de voir les autres groupes travailler, en en profitant pour se faire des petits coucous au passage :D.
+   En arrivant sur le lieu de l'événement (un samedi matin à 9h il faut le vouloir !!), un petit déjeuner était offert et on pouvait commencer à faire connaissance en attendant le reste des participants.
 
-   C'est plutôt sympa de pouvoir saluer un groupe de personnes venues faire la même chose que vous et se trouvant en Turquie, bonne ambiance !
+   Sur un des murs était projeté le flux de plusieurs webcams installées dans divers sites dans le monde ce qui permettait de voir les autres groupes travailler, en en profitant pour se faire des petits coucous au passage :D.
+
+   ![Webcams Wall]({{site.imagebaseurl}}/assets/images/GDCR-2016/webcam.jpg){:.img-center}
+
+   C'est plutôt sympa de pouvoir saluer un groupe de personnes venues faire la même chose que vous et se trouvant à des milliers de kilomètres, bonne ambiance !
 
    Cette année, 6 villes Françaises, dont Toulouse, ont participé à l'événement (sur un total de 115 villes participantes).
 
-   Après un tour de table pour que chacun se présente, les facilitateurs ont exposé le programme de la journée et les règles du jeu de la vie. Et chacun s'est trouvé un binôme pour commencer la première session (comme on était impair, il y avait un groupe de trois).
+   Après un tour de table pour que chacun se présente, les facilitateurs ont exposé le programme de la journée et les règles du jeu de la vie.
+
+   Puis, chacun s'est trouvé un binôme pour commencer la première session (comme on était impair, il y avait un groupe de trois).
 
 ## Session 1 : Échauffement
 
    Cette première session est une session de familiarisation avec les règles du jeu de la vie. Normalement, à cette étape, on ne commence pas en TDD (on en n'a pas encore parlé), mais j'étais en trinôme avec un partenaire qui participe aux **Code Retreat** depuis longtemps et pour lui c'était naturel de commencer comme ça.
 
-   Il souhaitait en profiter pour tester en **javascript**, moment découverte. On n'a pas vraiment fait le jeu de la vie mais j'ai découvert [**yarn**](https://github.com/yarnpkg/yarn) (outil de gestion de dépendence) et [**karma**](https://karma-runner.github.io/1.0/index.html) (un test-runner plutôt cool).
-
-   Je n'ai pas perdu mon temps !
+   Il souhaitait en profiter pour tester en **javascript**, moment découverte. On n'a pas vraiment fait le jeu de la vie mais j'ai découvert [**yarn**](https://github.com/yarnpkg/yarn) (un **npm** en mieux il parait) et [**karma**](https://karma-runner.github.io/1.0/index.html) (un test-runner plutôt cool).
 
 ## Session 2 : TDD et Ping Pong
 
-   À la suite de la restrospective de la session précedente, les facilitateurs nous on expliqué le principe du TDD et nous ont lancé le défi de l'appliquer avec la contrainte de le réaliser en **ping-pong pair programming**.
+   À la suite de la restrospective de la session précedente, les facilitateurs nous on expliqué le principe du TDD et nous ont demandé de l'appliquer avec la contrainte de le réaliser en **ping-pong pair programming**.
 
-   Le cycle TDD est composé de trois phases :
+   Le cycle du TDD est composé de trois phases :
 
   1. Écrire un TU qui échoue ;
   2. Écrire le code minimal qui passe le TU en succés ;
@@ -100,9 +109,11 @@ Le **Global Day of Code Retreat** est un événement mondial où des développeu
    - Faire le minimum nécessaire.
 
 
-   Ce n'est pas l'objet de cet article que d'expliquer ces règles, aussi je vous invite à consulter [cet article](http://martinfowler.com/bliki/BeckDesignRules.html) pour vous en faire une idée.
+   Ce n'est pas l'objet de cet article que d'expliquer ces règles, aussi je vous invite à consulter [celui-ci](http://martinfowler.com/bliki/BeckDesignRules.html) pour vous en faire une idée.
 
-## Session 3 : Pas de type primitif
+## Session 3 : Pas de types primitif
+
+  ![Pas de types primitif]({{site.imagebaseurl}}/assets/images/GDCR-2016/DSC_4115.jpg){:.img-center}
 
   Interdiction formelle d'utiliser des types primitifs dans les arguments des méthodes sous peine de sanctions terribles (genre coder en cobol).
 
@@ -110,19 +121,19 @@ Le **Global Day of Code Retreat** est un événement mondial où des développeu
 
   Par exemple (un peu simpliste), une cellule est localisée dans le plan grâce à ses coordonnées `(x,y)`, et on code ça :
 
-  ```java
+{% highlight javascript %}
   nextState(cell, x, y);
-  ```
+{% endhighlight %}
 
 Si demain on nous dit d'utiliser un espace en 3 dimensions il faudra passer partout dans le code pour ajouter la variable *z* :
 
-  ```java
+{% highlight javascript %}
   nextState(cell, x, y, z);
-  ```
+{% endhighlight %}
 
   En encapsulant les types primitifs dans une classe `Position` il suffit de modifier uniquement cette classe pour prendre en compte l'évolution :
 
-  ```java
+{% highlight javascript %}
   class Position {
     int x, y, z;
   }
@@ -130,15 +141,27 @@ Si demain on nous dit d'utiliser un espace en 3 dimensions il faudra passer part
   Position p;
   ...
   nextState(cell, p);
-  ```
+{% endhighlight %}
 
-Cette session oblige à penser le code différemment en passant à un niveau d'abstraction supérieur. Par exemple, avec mon binôme on lisait à haute voit notre test : "Si il y a moins de 3 voisins alors elle est morte.". Et le facilitateur de nous faire remarquer : "C'est bizarre, vous dites 'morte' et moi je lis 'false'. Il y a peut-être quelque chose à faire là."
+Cette session oblige à penser le code différemment en passant à un niveau d'abstraction supérieur en s'appuyant sur le métier qu'on est en train d'implémenter.
+
+Par exemple, avec mon binôme on lisait à haute voix notre test :
+
+> *"Si il y a moins de 3 voisins alors elle est morte."*
+
+Et le facilitateur de nous faire remarquer :
+
+> *"C'est bizarre, vous dites 'morte' et moi je lis 'false'. Il y a peut-être quelque chose à faire là."*
 
 Oui, c'est vrai qu'un `enum (DEAD, ALIVE)` rendrait les choses plus parlantes.
 
 ## Pause déjeuner
 
-   La pause déjeuner fait partie intégrante de l'événement. Le repas doit être bon (pas de pizza !) et on en profite pour échanger sur les sessions qui viennent de passer. Les conversations dérivent rapidement sur les avantages des bonnes pratiques et les difficultés à les faire appliquer en milieu professionnel.
+   La pause déjeuner fait partie intégrante de l'événement. Le repas doit être bon (pas de pizza ! ) et on en profite pour échanger sur les sessions qui viennent de passer.
+
+   ![Pause déjeuner]({{site.imagebaseurl}}/assets/images/GDCR-2016/repas.jpg){:.img-center}
+
+   Les conversations dérivent rapidement sur les avantages des bonnes pratiques et les difficultés à les faire appliquer en milieu professionnel.
 
    C'est quelque chose que je connais bien en tant qu'ancien développeur professionnel mais que j'avais finalement laissé tombé. Et ça me fait réfléchir.
 
@@ -146,9 +169,10 @@ Oui, c'est vrai qu'un `enum (DEAD, ALIVE)` rendrait les choses plus parlantes.
 
 ## Session 5 : Baby Steps
 
-   Pour nous réveiller après le copieux repas, les facilitateurs nous ont donné comme contrainte de travailler en baby steps.
+  ![Baby Steps]({{site.imagebaseurl}}/assets/images/GDCR-2016/DSC_4117.jpg){:.img-center}
+   Pour nous réveiller après le copieux repas, les facilitateurs nous ont donné comme contrainte de travailler en **Baby Steps**.
 
-   ça a l'air sympas comme ça des baby steps, des pas de bébé, mais en fait, c'est mortel.
+   Ça a l'air sympa comme ça des baby steps - des pas de bébé, comme c'est meugnon ! - mais en fait, c'est mortel.
 
    Le principe : on a deux minutes pour faire un cylce TDD complet (hors refactoring) plus un commit. Si les tests ne passent pas ou qu'on n'a pas eu le temps de commiter on a le droit à un `git reset --hard` et il faut tout recommencer depuis le dernier commit.
 
@@ -156,41 +180,47 @@ Oui, c'est vrai qu'un `enum (DEAD, ALIVE)` rendrait les choses plus parlantes.
 
    C'est hard...
 
-   En pratique, ça donne un binôme survolté, qui fait pas mal de `reset hard`, qui travaille dans la panique, qui fait tout sauf du beau code et qui, à un moment, se dit : "tiens ? et si on réfléchissait pendant 2 minutes ?".
+   En pratique, ça donne un binôme survolté, qui fait beaucoup de `reset hard`, qui travaille dans la panique, qui fait tout sauf du beau code et qui, à un moment donné, se dit : *" tiens ? et si on réfléchissait pendant 2 minutes ? "*.
 
    Et là, bouffée d'air, on pense, on conçoit, on adopte une stratégie qui consiste à commiter souvent du code qui marche (des baby steps).
 
-   Cette session a été ma préférée, intense, difficile, qui nous fait rapidement tomber dans nos travers du quotidien lorsqu'il y a un coup de bourre et révélatrice que, même dans ces moments, on peut faire du bon code en appliquant une stratégie intelligente : diviser pour mieux régner.
+   Au final, nous avons opté pour ne pas faire de gros commits de 2 minutes mais plutôt une série de commits de 30s sur les 2 minutes imparties. Et lorsqu'il y avait un gros bout de code à écrire on prenait le temps de réfléchir pendant 2 minutes avant de passer à l'action.
+
+   Cette session a été ma préférée, intense, difficile, compétitive, qui nous fait rapidement tomber dans nos travers du quotidien lorsqu'il y a un coup de bourre et révélatrice que, même dans ces moments, on peut faire du bon code en appliquant une stratégie intelligente : diviser pour mieux régner.
 
 ## Session 6 : Interdiction de communiquer
 
+  ![Interdiction de communiquer]({{site.imagebaseurl}}/assets/images/GDCR-2016/Silence.jpg){:.img-center}
+
    Dernière et ultime session, le **mute pair-programming** : interdiction de communiquer, que ce soit en parlant, en langue des signes, en écrivant des commentaires ou par tout autre moyen.
+
 
    La deuxième des quatre règles pour un design simple est reine : **l'intention doit se révéler.**
 
-   Dans mon cas ça a été difficile, très difficile, voire franchement pénible. Nous étions en trinôme et celui qui a commencé a écrit un test que les deux autres n'ont pas compris et nous sommes restés bloqués facilement 15 minutes à... ne rien faire du tout et les 30 minutes restantes à bricoler des trucs sans cohérence.
+   Dans mon cas ça a été difficile, très difficile, voire franchement pénible. Nous étions en trinôme, et celui qui a commencé a écrit un test que les deux autres n'ont pas compris et nous sommes restés bloqués facilement 15 minutes à... ne rien faire du tout et les 30 minutes restantes à bricoler des trucs sans cohérence.
 
    Il y a plusieurs raisons à cela.
 
    Tout d'abord, alors que dans toutes les autres sessions les règles du **jeu de la vie** ont été testées en premier, ici, celui qui a commencé est parti de l'univers contenant les cellules et, en plus, en traitant un point spécifique sans intérêt particulier.
 
-   Ensuite, le nom du test, ni le code, n'indiquaient en rien son intention et ce vers quoi il voulait aller.
+   Ensuite, ni le nom du test, ni le code, n'indiquaient son intention et ce vers quoi il voulait aller.
 
    Et pour finir, même sans communication, il faut une certaine *symbiose* entre les membres de l'équipe, surtout s'ils n'ont que le code pour communiquer.
 
-   Et ce tout petit bout de code de rien du tout est à l'origine d'un code digne d'envoyer le développeur qui l'a produit dans la cachette de la honte.
+   Ce tout petit test de rien du tout est à l'origine d'un code digne d'envoyer le développeur qui l'a produit dans la cachette de la honte.
 
-   Faire comprendre son intention dans le code et peut-être la partie la plus difficile des **quatres règles pour un design simple**.
+   Faire comprendre son intention dans le code est peut-être la partie la plus difficile des **quatres règles pour un design simple**.
 
 ## Retrospective de la journée
 
-  Le TDD, ça à l'air bien mais ça me heurte violemment. Dans le principe, il faut écrire un test qui ne marche pas (parce que le code n'est pas encore implémenté) puis implémenter juste ce qu'il faut pour que le test passe (**faire le minimum nécessaire**).
+![Retrospective]({{site.imagebaseurl}}/assets/images/GDCR-2016/DSC_4111.jpg){:.img-center}
+  Dans le principe du TDD, il faut écrire un test qui ne marche pas (parce que le code n'est pas encore implémenté) puis implémenter juste ce qu'il faut pour que le test passe (**faire le minimum nécessaire**).
 
-  La théorie voulant que si tous les tests sont fait alors la solution est implémentée comme attendue et si ce n'est pas le cas c'est qu'il manque des tests.
+  La théorie voulant que, si tous les tests sont faits, alors la solution est implémentée comme attendue et si ce n'est pas le cas c'est qu'il manque des tests.
 
-  Dans la pratique, faire qu'un test passe consiste, par exemple, à se contenter de faire un `return true;` dans une méthode sensée contenir un code complexe parce que le test unitaire attend un `true` et donc, de ne pas implémenter ce qui est attendu, à priori.
+  Dans la pratique, faire qu'un test passe consiste, par exemple, à se contenter de faire un `return true;` dans une méthode sensée contenir un code complexe, tout simplement parce que le test unitaire attend un `true` et, donc, de ne pas implémenter ce qui est attendu, au moins dans un premier temps.
 
-  Je ne suis pas très confiant sur le principe mais je demande à voir ce que cela donne sur un projet réél.
+  Je demande à voir ce que ça peut donner sur un projet réél, c'est tellement contre-intuitif.
 
   Par contre, commencer par les tests implique de se poser tout de suite la question de comment utiliser le modèle, d'être dans le concret dés le départ et donc de produire un code *utile*.
 
@@ -202,15 +232,17 @@ Oui, c'est vrai qu'un `enum (DEAD, ALIVE)` rendrait les choses plus parlantes.
 
 ### Qu'est-ce que j'ai appris aujourd'hui ?
 
-   Le TDD, que 45 minutes c'est court mais que prendre le temps de réflechir apporte un niveau de compréhension et de qualité du code qui rattrape largement le fait de ne pas avoir exploiter à 100% ce temps pour coder brute.
+   Ce qu'est e TDD, que 45 minutes c'est court, mais que prendre le temps de réflechir apporte un niveau de compréhension et une qualité du code qui rattrape largement le fait de ne pas avoir exploiter à 100% ce temps pour du code brut.
 
 ### Qu'est-ce qui m'a surpris aujourd'hui ?
 
-   Produire si peu de code en une journée, abstraction faite d'avoir systématiquement supprimer le travail produit. Et d'avoir malgré tout le sentiment, et la certitude d'avoir fait le job.
+   D'avoir produit si peu de code en une journée, abstraction faite d'avoir systématiquement supprimer le travail produit.
+
+   Et d'avoir malgré tout le sentiment, et la certitude, d'avoir fait le job.
 
 ### Que vais-je mettre en application lundi ?
 
-  En toute franchise, je ne me souviens plus de ce que j'ai dit que je ferais mais je sais que je ne l'ai pas fait.
+  En toute franchise, je ne me souviens plus de ce que j'ai dit que je ferai mais je sais que je ne l'ai pas fait.
 
   Par contre, je vais proposer et travailler avec les équipes pour mettre en place ces pratiques qui seront bénéfiques tant pour les équipes que pour nos clients.
 
@@ -218,7 +250,7 @@ Oui, c'est vrai qu'un `enum (DEAD, ALIVE)` rendrait les choses plus parlantes.
 
    Chose intéressante lors du retour fait par les facilitateurs, la façon de présenter l'exercice influe la façon dont les participants vont rechercher une implémentation.
 
-   L'année dernière le jeu de la vie avait été expliqué en parlant d'une grille univers dans laquelle évoluait les cellules et en complétant la description avec les règles du **jeu de la vie**. Et l'année dernière, tout le monde a commencé à créer et tester cet univers en premier.
+   L'année dernière, le jeu de la vie avait été expliqué en parlant d'une grille univers dans laquelle évoluaient les cellules et en complétant la description avec les règles du **jeu de la vie**. Et l'année dernière, tout le monde a commencé à créer et tester cet univers en premier.
 
    Cette année, il n'y avait que les règles, l'univers était sous-entendu et nous avons tous commencé par tester les règles en premier.
 
