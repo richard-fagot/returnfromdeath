@@ -1,7 +1,7 @@
 # Site settings
 title: Return From Death
-tagline: 
-email: 
+tagline:
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Chef de projet et ancien développeur sur Toulouse je partage ici des solutions aux problèmes que j'ai pu rencontrer dans ma carrière.
 baseurl: "/returnfromdeath/" # the subpath of your site, e.g. /blog/
@@ -17,13 +17,13 @@ theme:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
-  social: 
+  social:
     github: richard-fagot
-    # twitter: 
-    # facebook: 
-    # gplus: 
+    # twitter:
+    # facebook:
+    # gplus:
     # dribble: gayanvirajith
-    # pinterest: 
+    # pinterest:
 
   # Enable share buttons on post footer
   show_share_buttons: true
@@ -35,12 +35,12 @@ theme:
   disqus_shortname: returnfromdeath
 
   # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
-  google_webmaster_key: 
+  google_analytics_key:
+  google_webmaster_key:
 
 # Build settings
 markdown: kramdown
-
+plugin: [jekyll-paginate]
 timezone: Europe/Paris
 
 # Permalinks
@@ -50,7 +50,7 @@ permalink: /:title/
 paginate: 5
 
 # Files/Folders to be excluded from generated _site folder
-exclude: 
+exclude:
   - CNAME
   - Gemfile
   - Rakefile
