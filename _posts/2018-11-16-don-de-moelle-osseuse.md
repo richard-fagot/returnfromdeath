@@ -4,7 +4,7 @@ title: "J'ai fait un don de moelle osseuse !"
 comments: true
 category:
 - Médecine
-- Don
+- Don de moelle
 browser_title: "Don de Moelle"
 meta_description: "Comment se passe un don de moelle osseuse."
 banner_image: don-moelle/don-de-moelle.png
