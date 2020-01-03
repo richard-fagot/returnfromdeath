@@ -1,0 +1,3 @@
+[submodule "blog/themes/materialize-bp-hugo-theme"]
+	path = blog/themes/materialize-bp-hugo-theme
+	url = https://github.com/spech66/materialize-bp-hugo-theme.git
