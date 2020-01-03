@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "fr-fr"
+title = "Return From Death"
+theme = "materialize-bp-hugo-theme"
+author = "Richard Fagot"
+
+[Author]  
+  name = "Richard Fagot"
+
+[params]
+showPostSummary = true
