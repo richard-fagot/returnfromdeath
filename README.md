@@ -1,6 +1,20 @@
 # [returnfromdeath](richard-fagot.github.io/returnfromdeath)
 Trucs, astuces et tutoriels pour se sortir de mauvaises situations 
 
+# Migration sous Hugo
+
+Jekyll c'est bien mais l'installation de tous les outils est fastidieuse et compliquée, d'autant plus qu'il faut que je le fasse sur les différentes machines et différents OS à partir desquels je suis susceptible de mettre à jour le blog.
+
+[Hugo](https://gohugo.io/) c'est un téléchargement et ça marche tout de suite.
+
+Pour le thème, j'ai retenu [Materialize BP][https://github.com/spech66/materialize-bp-hugo-theme#configuration-and-theme-specific-settings]
+
+---
+
+OLD
+
+---
+
 #Installer une clé SSH pour github sous ubuntu 14.04
 1. Suivre les étapes sans faire la 5 dans https://help.github.com/articles/generating-ssh-keys/ 
 2. Faire ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts

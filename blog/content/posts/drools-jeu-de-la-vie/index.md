@@ -71,7 +71,7 @@ public class Boxer {
 
 La détermination de la catégorie d'âge se fait au moment opportun dans le ruleflow :D
 
-![Ruleflow]({{site.imagebaseurl}}/assets/images/drools-dt-jbpmn/ruleflow.png){:.img-center}
+![Ruleflow](/img/drools-dt-jbpmn/ruleflow.png)
 
 Le *RuleFlowGroup* visible dans les propriétés de la *Rule Task* est positionné à *agePoidsCat*. Cette information nous permettra d'indiquer à *Drools* à quel moment exécuter notre table de décision dans le déroulement du *Ruleflow*.
 
