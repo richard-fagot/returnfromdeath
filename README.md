@@ -9,6 +9,19 @@ Jekyll c'est bien mais l'installation de tous les outils est fastidieuse et comp
 
 Pour le thème, j'ai retenu [Materialize BP][https://github.com/spech66/materialize-bp-hugo-theme#configuration-and-theme-specific-settings]
 
+# Installation de l'environnement de développement
+
+1. [Installer Hugo](https://gohugo.io/getting-started/installing/) ;
+1. Cloner le projet ;
+1. Récupérer le sous-module pour le thème Materialize BP :
+```
+git submodule init
+git submodule update
+```
+1. Lancer le server `hugo server -D` ;
+1. Fin.
+
+
 ---
 
 OLD
