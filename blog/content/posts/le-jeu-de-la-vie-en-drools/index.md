@@ -13,7 +13,7 @@ tags:
 ---
 
 Un collègue m'a montré son implémentation du *jeu de la vie* suite à son autoformation en *Haskell*.  
-<br/>    
+<br/>  
 Simple et élégante, comme on peut s'y attendre en *Haskell*, cela m'a donné l'idée de le faire en *Drools*. 
 
 ## TL,DR
@@ -145,7 +145,7 @@ when
 
 ## L'exécution
 
-![Le jeu de la vie](/img/drools-jeu-de-la-vie/LeJeuDeLaVie.gif)  
+{{< figure src="/img/drools-jeu-de-la-vie/LeJeuDeLaVie.gif#center" alt="Le jeu de la vie" class="center">}}
 <br/>  
 Pour rendre la chose plus ludique et attrayante j'ai ajouté une visualisation graphique des différents calculs portés par *Drools*.  
 <br/>    

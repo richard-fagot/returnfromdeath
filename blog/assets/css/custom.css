@@ -2,3 +2,14 @@ html {
     font-family: Lato;
     font-size: 18px;
 }
+
+img[src$='#center']
+{
+    display: block;
+    margin: 1rem auto; 
+}
+
+
+p {
+    margin-bottom: 40px;
+}
